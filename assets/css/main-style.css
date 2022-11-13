@@ -1,0 +1,277 @@
+.box-red {
+    background-color: #000000;
+}
+
+main {
+    margin-top: 95px;
+    background-color: black;
+    height: 100%;
+}
+
+#ingressosChamadaInferiorDireito {
+    position: fixed;
+    bottom: 0;
+    left: 40px;
+    z-index: 999;
+    background-color: rgb(61, 61, 61);
+    width: 235px;
+    height: 300px;
+    border-radius: 30% 30% 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#ingressosChamadaInferiorDireito > div#imgsChamada {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+}
+
+#ingressosChamadaInferiorDireito > div#imgsChamada > h6 {
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+#ingressosChamadaInferiorDireito > div#buttonsChamada {
+    display: flex;
+    padding: 0px 10px;
+    height: 40px;
+}
+
+#ingressosChamadaInferiorDireito > div#buttonsChamada > button {
+    font-size: 13px;
+    margin-left: 3px;
+}
+
+#ingressosChamadaInferiorDireito > div > img#logoTicket {
+    width: 100px;
+    display: block;
+}
+
+#home-carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 30px;
+}
+.carousel-control-next, .carousel-control-prev {
+    top: 46px !important;
+    width: 7% !important;
+}
+.carousel-control-next-icon {
+    background-image: url('../img/banner/carousel-modified-arrow-right.png') !important;
+}
+.carousel-control-prev-icon {
+    background-image: url('../img/banner/carousel-modified-arrow-left.png') !important;
+}
+
+.row>* {
+    
+    padding-right: calc(var(--bs-gutter-x) * 0) !important;
+    padding-left: calc(var(--bs-gutter-x) * 0) !important;
+}
+
+
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 5rem !important;
+    height: 5rem !important;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+
+.container-button-carousel {
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px 50px 0px 0px;
+    margin: 0 auto !important;
+    height: 5%;
+    width: 33%;
+}
+
+
+.container-button-carousel > button {
+    background-color: rgb(107, 107, 107) !important ;
+    height: 20% !important;
+    width: 18% !important;
+    border: 3px solid red;
+
+
+}
+.container-button-carousel > button.active {
+    background-color: red !important;
+}
+
+#scroll-home {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#scrool-home button {
+    border: 0px;
+    background-color: red;
+}
+
+.container-infos-col {
+    height: 350px;
+    margin: 0 05px;
+}
+
+
+
+.container-infos-col > a {
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-decoration: none !important;
+}
+
+
+
+.container-infos-col > p {
+    font-size: 22px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding-left: 10px;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.container-infos-col > p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 2px;
+    background-color: rgb(255, 123, 0);
+}
+
+
+#carousel-infos .carousel-indicators {
+    
+    bottom: -60px;
+}
+
+#carousel-infos  button {
+    background-color: rgba(255, 0, 0, 0);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#carousel-infos  button > div {
+    background-color: orangered !important;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.container-infos-col {
+    position: relative;
+}
+
+
+.modal {
+    color: white;
+    --bs-modal-title-line-height: 70px !important;
+    --bs-modal-bg: rgb(60, 60, 60) !important;
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+
+#noticiasModal {
+    --bs-modal-width: 96vw !important;
+    overflow: scroll;
+}
+
+#corpoTxtNoticia > img{
+    width: 500px;
+    display: inline-block;
+
+}
+
+#corpoTxtNoticia > p {
+    display: block;
+}
+
+.modal-content {
+    height: 100%;
+}
+
+
+.container-infos-col::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.719));
+}
+
+#spinnerFakeNoticia {
+    --bs-spinner-border-width: 1.25em;
+    --bs-spinner-width: 7rem;
+    --bs-spinner-height: 7rem
+}
+
+.c1 {
+    background-image: url('https://cdn.rockinrio.com/wp-content/uploads/2022/08/rir-mobile-mobilidade-1188x1080.png');
+    background-size: cover;
+}
+
+/* .c2 {
+    background-image: url('../img/carousel-infos/4e7f52cf-c4f9-4d37-ba71-a12435b98fc2-1080x1080.jpeg');
+    background-size: cover;
+    background-position: center top;
+    
+}
+.c3 {
+    background-image: url('https://cdn.rockinrio.com/wp-content/uploads/2022/08/rir-mobile-globoplay-1188x1080.png');
+    background-size: cover;
+}
+
+.c4 {
+    background-image: url('../img/carousel-infos/rir-alexa-site-mobile-comcta.png');
+    background-size: cover;
+    background-position: center bottom;
+}
+.c5 {
+    background-image: url('../img/carousel-infos/rir-alexa-site-mobile-comcta.png');
+    background-size: cover;
+    background-position: center bottom;
+}
+.c6 {
+    background-image: url('	https://cdn.rockinrio.com/wp-content/uploads/2022/03/rir-uirapuru-site-mobile-materia.jpg');
+    background-size: cover;
+}
+.c7 {
+    background-image: url('	https://cdn.rockinrio.com/wp-content/uploads/2022/03/2003-mobile-destaque-carta.png');
+    background-size: cover;
+    background-position: center top;
+}
+
+.c8 {
+    background-image: url('	https://cdn.rockinrio.com/wp-content/uploads/2022/03/header-materia-1080x1080-1.png');
+    background-size: cover;
+} */
+
+

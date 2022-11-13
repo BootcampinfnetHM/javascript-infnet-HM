@@ -1,0 +1,284 @@
+@media (min-width: 1120px) {
+.row {
+    flex-wrap: nowrap;
+}
+}
+
+@media (max-width: 840px) {
+    header div#barra-superior {display: none;}
+    div#header-mobile {display: block;}
+    aside > div > div#patrocinadores img{
+        width: 50px;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 2000.98px) and (min-width: 1200px) {
+    div#header-mobile{
+        display: none;
+    }
+    header > div > div > div#datas-e-idioma {
+        width: 59%;
+    }
+    header > div > div > nav > ul {
+        width: 950px;
+    }
+
+    main > div > div.slider-for {
+        width: 1000px;
+        height: 562px;
+    }
+    
+    
+}
+@media (max-width: 1199.98px) and (min-width: 992px) {
+    div#header-mobile{
+        display: none;
+    }
+    header > div > div > div#datas-e-idioma {
+        width: 59%;
+    }
+    header > div > div > nav > ul {
+        margin-left: -90px;
+        width: 900px;
+    }
+
+    #explore {
+        position: absolute;
+        top: 150px;
+        transform: rotate(-90deg);
+        transition-duration: 1s;
+        left: 90.5%;
+    }
+    
+    #explore > span > ul {
+        margin-top: -12px;
+        margin-right: -20px;
+        width: 400px;
+        transform: rotate(90deg);
+    }
+    #explore > span > ul > li {
+        text-align: center;
+    }
+
+    header > div > div > div#datas-e-idioma {
+        width: 79%;
+         margin-left: 100px;
+    } 
+
+    .container-infos-col > a > p {
+        height: 35%;
+    }
+
+}
+
+
+@media (max-width: 991.98px) and (min-width: 768px) {
+
+    #robertoMedina {
+        padding-top: 0px !important;
+    }
+
+    #robertoMedina > h2  {
+        background-color: rgba(65, 180, 151, 0);
+        width: 73% !important;
+        font-size: 20px!important;
+        line-height: normal !important;
+    }
+
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 24%;
+    }
+
+    #explore {
+        position: absolute;
+        top: 150px;
+        transform: rotate(-90deg);
+        transition-duration: 1s;
+        left: 88.5%;
+    }
+    
+    #explore > span > ul {
+        margin-top: -12px;
+        margin-right: -20px;
+        width: 400px;
+        transform: rotate(90deg);
+
+    }
+    #explore > span > ul > li {
+        text-align: center;
+    }
+
+    header > div > div > div#datas-e-idioma {
+        width: 79%;
+         margin-left: 100px;
+    } 
+
+    header > div > div > div#datas-e-idioma {
+        width: 79%;
+         margin-left: 100px;
+    } 
+
+   
+    header > div > div > nav > ul {
+        margin-left: -75px;
+        
+        width: 160%;
+    }
+
+    .container-infos-col > a > p {
+        height: 35%;
+    }
+      
+}
+@media (max-width: 1130.98px) and (min-width: 576px) {
+    .col-sm-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        height: 200px !important;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        background-size: 80% 60%;
+    }
+
+    .container-infos-col {
+        margin-bottom: 15px;
+    }
+
+    .container-infos-col > a {
+        padding-left: 25px;
+    }
+
+    .container-infos-col > a > p::before {
+        width: 350px !important;
+        background-color: rgb(255, 123, 0);
+    }
+
+    #robertoMedina {
+        padding-top: 0px !important;
+    }
+
+    #robertoMedina > h2  {
+        background-color: rgba(65, 180, 151, 0);
+        width: 576px !important;
+        font-size: 26.5px!important;
+        line-height: normal !important;
+    }
+
+    div#inputs > input {
+        width: 90% !important;
+        margin-bottom: 10px!important;
+    }
+
+    input > #checkBoxForm {
+        display: inline !important;
+    }
+
+    footer ul > li {
+        display: none;
+    }
+    footer ul > h3 a {
+        text-align: center !important;
+        margin-left: -100px;
+        color: white;
+    }
+
+    footer > #redes-sociais {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 575.98px) and (min-width: 0px) {
+
+    header div#barra-superior {
+        display: none;
+    }
+
+    #home-carousel  a {
+        margin-bottom: 100px;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        height: 100px !important;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        background-size: 100% 40%;
+    }
+
+    .col-sm-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .container-infos-col {
+        margin-bottom: 25px;
+    }
+    
+
+    .container-infos-col > a {
+        padding-left: 25px;
+        margin-bottom: 130px !important;
+    }
+
+    .container-infos-col > a > p::before {
+        width: 350px !important;
+        background-color: rgb(255, 123, 0);
+    }
+    
+    #robertoMedina {
+        padding: 0px !important;
+        height: 350px !important;
+    }
+
+    #robertoMedina > h2  {
+        background-color: rgba(65, 180, 151, 0);
+        width: 400px !important;
+        font-size: 22.5px!important;
+        line-height: normal !important;
+    }
+
+    #robertoMedina > h3 {
+        font-size: 20px!important;
+    }
+
+    #robertoMedina > h5 {
+        font-size: 14px!important;
+        margin-bottom: 20px!important;
+    }
+
+    
+
+    div#inputs > input {
+        width: 95% !important;
+        margin-bottom: 10px!important;
+    }
+
+    input > #checkBoxForm {
+        display: inline !important;
+    }
+
+    footer ul > li {
+        display: none;
+    }
+    footer ul > h3 > a{
+        text-align: center;
+        width: 300px;
+        text-align: center !important;
+        margin-left: -100px;
+    }
+
+    .sessao-fotos-container > h1 > strong {
+        white-space: nowrap;
+    }
+
+}
+
+
+
