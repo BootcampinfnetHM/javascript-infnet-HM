@@ -1,0 +1,34 @@
+aside {
+    text-align: center;
+    color: white;
+    background-color: rgb(51, 51, 51);
+    padding: 80px;
+}
+
+aside h3 {
+    font-size: 15px;
+
+}
+
+aside div {
+    display: flex;
+    justify-content: center;
+    
+}
+
+aside div > div {
+    width: 600px;
+    display: inline-block;
+}
+
+aside div img {
+    display: inline-block;
+}
+
+aside img {
+    margin: 0px auto 30px auto !important;
+    display: block;
+    margin-bottom: 50px;
+}
+
+

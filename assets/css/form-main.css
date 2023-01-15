@@ -1,0 +1,54 @@
+form {
+    text-align: center;
+    padding: 40px 10px;
+
+}
+form * {
+    font-family: 'Montserrat';
+
+}
+
+form span {
+    display: block;
+    margin: 20px auto;
+    font-size: 25px;
+    color: white;
+}
+
+form input {
+    width: 320px;
+    padding: 5px;
+}
+
+form input::placeholder {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+form > #checkBoxForm {
+    width: auto;
+    margin: 10px 5px;
+}
+
+form label {
+    color: white;
+
+}
+
+
+form button {
+    display: block;
+    margin: 20px auto;
+    background-color: rgb(40, 66, 153);
+    color: white;
+    width: 150px;
+    height: 45px;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'Aero Bold';
+}
+form button:hover {
+    transition-duration: 0.5s;
+    background-color: rgb(23, 38, 88);
+}

@@ -1,0 +1,87 @@
+footer {
+padding: 50px 150px;
+background-color: black;
+text-align: center;
+}
+footer * {
+    font-family: 'Montserrat';
+}
+footer a {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+footer > ul {
+    margin-bottom: 310px;
+}
+
+footer  ul  h3 {
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
+footer ul > li {
+    line-height: 35px;
+}
+
+footer .redes-sociais {
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+footer .redes-sociais > a {
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(43, 43, 43);
+    background-position: center center;
+    background-size: cover;
+}
+
+footer img {
+    display: block;
+    margin-bottom: 30px;
+}
+
+a#facebook  {
+    background-image: url('https://cdn.rockinrio.com/wp-content/themes/rir2/assets/images/redes-sociais/facebook.png');
+}
+a#instagram {
+    background-image: url('https://cdn.rockinrio.com/wp-content/themes/rir2/assets/images/redes-sociais/instagram.png');
+}
+a#twitter {
+    background-image: url('https://cdn.rockinrio.com/wp-content/themes/rir2/assets/images/redes-sociais/facebook.png');
+}
+a#youtube {
+    background-image: url('https://cdn.rockinrio.com/wp-content/themes/rir2/assets/images/redes-sociais/youtube.png');
+}
+a#spotfy {
+    background-image: url('https://cdn.rockinrio.com/wp-content/themes/rir2/assets/images/redes-sociais/spotify.png');
+}
+a#flickr {
+    background-image: url('https://cdn.rockinrio.com/wp-content/themes/rir2/assets/images/redes-sociais/flickr.png');
+}
+a#tiktok {
+    background-image: url('https://cdn.rockinrio.com/wp-content/themes/rir2/assets/images/redes-sociais/tiktok.png');
+}
+
+#faixa-final {
+    background-color: rgb(24, 24, 24);
+    height: fit-content;
+    height: 200px;
+    padding: 70px 70px;
+    margin-bottom: 100px;
+}
+
+#apcer {
+    float: left;
+}
+#artplan {
+    float: right;
+}

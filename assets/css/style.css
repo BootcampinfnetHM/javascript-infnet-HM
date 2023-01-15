@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Aero Bold Italic';
+    src: url('../fonts/aero_matics_bold_italic-webfont.woff');
+}
+
+@font-face {
+    font-family:'Aero Bold';
+    src: url('../fonts/aero_matics_display_bold-webfont.woff');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+html {
+    background: black
+}
+@import url('media.css');
+@import url('header-style.css');
+@import url('main-style.css');
+@import url('footer-style.css');

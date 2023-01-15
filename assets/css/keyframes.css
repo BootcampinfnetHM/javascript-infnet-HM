@@ -1,0 +1,17 @@
+@keyframes pop {
+    50% {
+        transform: scale(1.1);
+    }
+
+}
+@keyframes sizeOut {
+    0% {
+        position: absolute;
+        transform: scale(3.0);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+}
+
+
