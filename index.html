@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock In Rio - Site Oficial</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index-style.css">
+    <link rel="stylesheet" href="assets/css/keyframes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+
+    
+    @keyframes showUp {
+        0%  {
+            background-image: url('assets/img/bg-conteudo-index.jpg');
+            opacity: 0%;
+        }
+    
+        10% {
+            opacity: 35%;
+        }
+        30% {
+            opacity: 0%;
+            background-image: url('assets/img/bg-conteudo-index.jpg');
+        }
+        33%{
+            background-image: url('assets/img/bg-conteudo-index-2.jpg');
+        }
+        40% {
+            opacity: 35%;
+        }
+        60% {
+            opacity: 0%;
+            background-image: url('assets/img/bg-conteudo-index-2.jpg');
+        }
+        63% {
+            background-image: url('assets/img/bg-conteudo-index-3.jpg');
+        }
+        80% {
+            opacity: 35%;
+            background-image: url('assets/img/bg-conteudo-index-3.jpg');
+        }
+    
+        100% {
+            opacity: 0%;
+            background-image: url('assets/img/bg-conteudo-index-3.jpg');
+        }
+
+        
+    
+    }
+    h1 {
+        position: absolute;
+        text-align: center;
+        color: white;
+        z-index: 999;
+        font-size: 100px;
+        animation-delay: 0.5s !important;
+        animation-duration: 1.5s !important;
+        padding-top: 400px;
+    }
+    </style>
+        
+</head>
+<body>
+    
+    <div id="blend-css"></div>
+    <div id="conteudo">
+        <div id="BG"></div>
+        <img id="logo-png" width="400px" src="assets/img/logo-rir.png" alt="">
+        <h1 id="ano_index" class="animate__animated animate__zoomInUp">2022</h1>
+        <div id="botao">
+            <div id="logo"></div>
+            <div id="botao-entrar" href="#">ENTRAR</div>
+            <a id="botao-entrar-copia" href="home.html" target="_self">ENTRAR</a>
+        </div>
+    </div>
+    <div id="conteudo2"></div>
+</body>
+</html>
+
+<script>
+    var entrarTxt = document.querySelector('a#botao-entrar-copia')
+    var botao = document.querySelector('div#botao-entrar')
+    entrarTxt.addEventListener('mouseover', click)
+    entrarTxt.addEventListener('mouseout', semClick)
+    function click() {
+        entrarTxt.style.width = '200px'
+        entrarTxt.style.height = '50px'
+        entrarTxt.style.lineHeight = '50px'
+        botao.style.animationDuration = '0s'
+    }
+    function semClick() {
+        entrarTxt.style.width = '200px'
+        entrarTxt.style.height = '50px'
+        entrarTxt.style.lineHeight = '50px'
+        botao.style.animationDuration = '3s'
+    }
+</script>
